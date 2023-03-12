@@ -3,5 +3,5 @@
  * @return {string}
  */
 function defangIPaddr(address) {
-    return address.replace(/\./g, '[.]');
+    return address.replace(/\./g, '[.]')
 }
